@@ -8,7 +8,7 @@ languages:
     en:
         languageName: English
         title: YYSY's Blog
-        description: You can share your passive incoming ways or other about linux/network/system/scripts then can auto run which can earning money, or just want to chat is all fine. TG offical channel: https://t.me/yysy_blog, TG chat channel: https://t.me/yysy_blog_chat
+        description: You can share your passive incoming ways or other about linux/network/system/scripts then can auto run which can earning money, or just want to chat is all fine. TG offical channel(https://t.me/yysy_blog), TG chat channel(https://t.me/yysy_blog_chat)
         weight: 2
     zh-cn:
         languageName: 中文
