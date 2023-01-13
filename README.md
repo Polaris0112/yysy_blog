@@ -1,4 +1,5 @@
-# Polaris0112.github.io
+# yysy.site
+
 YYSY 有一说一 私人博客
 
 本站单纯分享、记录、收集平时积累的各种信息，不定时更新
