@@ -1,4 +1,4 @@
-baseurl: https://polaris0112.github.io
+baseurl: https://yysy.site
 languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 5
@@ -8,7 +8,7 @@ languages:
     en:
         languageName: English
         title: YYSY's Blog
-        description: You can share your passive incoming ways or other about linux/network/system/scripts then can auto run which can earning money, or just want to chat is all fine.
+        description: You can share your passive incoming ways or other about linux/network/system/scripts then can auto run which can earning money, or just want to chat is all fine. TG offical channel: https://t.me/yysy_blog, TG chat channel: https://t.me/yysy_blog_chat
         weight: 2
     zh-cn:
         languageName: 中文
@@ -20,11 +20,11 @@ languages:
 disqusShortname: yysy
 
 # GA Tracking ID
-googleAnalytics:
+googleAnalytics: G-LELYVB7T9C
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
-DefaultContentLanguage: en
+DefaultContentLanguage: zh-cn
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
@@ -42,7 +42,7 @@ params:
     favicon:  # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
-        since: 2020
+        since: 2022
         customText:
 
     dateFormat:
@@ -50,8 +50,8 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        emoji: 😂
+        subtitle: 个人博客，主旨技术分享、交流、有钱齐齐稳
         avatar:
             enabled: true
             local: true
