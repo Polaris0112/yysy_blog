@@ -308,7 +308,7 @@ git push -u origin main
 
 ![Github-Pages-Show](Github-Pages-Show.png)
 
-### 结束语
+## 结束语
 
 到这里，已经完成了博客的部署，接下来就是调整配置等等相关细节问题。如果部署上有什么不清晰或者是教程上写错的地方，欢迎联系Email: jjc27017@gmail.com 或者添加TG群(https://t.me/yysy_blog_chat)一起讨论。后续会根据笔者使用情况出对应的教程，有兴趣的朋友可以继续阅读以下文章：
 
