@@ -1,4 +1,15 @@
-# Github Pages + Hugo + hugo-theme-stack主题搭建全记录
+---
+title: Github Pages + Hugo + hugo-theme-stack主题搭建全记录
+description: Github配置、Hugo踩坑过程整理
+date: 2023-01-13
+slug: github-pages-hugo
+image: Github-Pages-Hugo-Front.jpg
+categories:
+    - 部署
+    - Github
+    - Hugo
+    - 教程
+---
 
 ##  背景
 
@@ -128,7 +139,7 @@ hugo v0.96.0+extended darwin/amd64 BuildDate=unknown
 #### 创建博客源代码仓库
 
 1. 仓库命名（随意）
-2. 勾选**Public**，设置为公开仓库![FireShot Capture 010 - Create a ](/Users/all/Downloads/FireShot Capture 010 - Create a .jpg)
+2. 勾选**Public**，设置为公开仓库![Github-Blog-Source-Code-Repository-Setting](Github-Blog-Source-Code-Repository-Setting.jpg)
 
 #### 部署Hugo源代码到本地
 
@@ -148,7 +159,7 @@ git remote add https://github.com/Polaris0112/yysy_blog.git
 
 此时，yysy文件夹下目录状态应该是这样的
 
-![image-20230113161358579](/Users/all/Library/Application Support/typora-user-images/image-20230113161358579.png)
+![YYSY-Blog-Dir-Tree](YYSY-Blog-Dir-Tree.png)
 
 - **archetypes**：存放用hugo命令新建的md文件应用的front matter模版
 - **config.toml**：网站配置文件
@@ -183,13 +194,13 @@ cp -r themes/hugo-theme-stack/exampleSite/ ./
 hugo server -D
 ```
 
-正常返回是![Snipaste_2023-01-13_16-28-08](/Users/all/Downloads/Snipaste_2023-01-13_16-28-08.jpg)
+正常返回是![Local-Run-Return](Local-Run-Return.jpg)
 
 这时候就能打开浏览器访问 http://localhost:1313/
 
 显示以下页面就是最最最原始的测试页面，元素都能正常展示。（到目前为止还没联动Github Pages，只是本地启动调试）
 
-![image-20230113162938496](/Users/all/Library/Application Support/typora-user-images/image-20230113162938496.png)
+![Local-Run-Website-Return](Local-Run-Website-Return.png)
 
 
 
@@ -198,7 +209,7 @@ hugo server -D
 #### 创建Github Pages仓库
 
 1. 命名GitHub Pages仓库，这个仓库名**必须是** `<username>.github.io `的格式，`<username>` 是自己的GitHub的用户名。比如我的Github用户名是Polaris0112，那我就要创建polaris0112.github.io作为Pages的仓库名。
-2.  勾选**Public**，设置为公开仓库。![FireShot Capture 010 - Create a  (/Users/all/Downloads/FireShot Capture 010 - Create a  (1).jpg)](/Users/all/Downloads/FireShot Capture 010 - Create a  (1).jpg)
+2.  勾选**Public**，设置为公开仓库。![Github-Pages-Repository-Setting](Github-Pages-Repository-Setting.jpg)
 
 #### 推送静态文件
 
@@ -272,9 +283,9 @@ git push -u origin main
 hugo
 ```
 
-![image-20230113163849511](/Users/all/Library/Application Support/typora-user-images/image-20230113163849511.png)
+![Hugo-Command-Run-1](Hugo-Command-Run-1.png)
 
-![image-20230113163918193](/Users/all/Library/Application Support/typora-user-images/image-20230113163918193.png)
+![Hugo-Command-Run-2](Hugo-Command-Run-2.png)
 
 运行后，`yysy`目录下会生成`public`文件夹，里面就是根据其他文件生成出来，整个网站的静态文件。
 
@@ -291,19 +302,21 @@ git push -u origin main
 
 成功推送之后应该是会触发Github Actions，具体在Github Pages仓库（就是仓库名有github.io那个）中Issue那一栏会有Action标签，在那里可以看到每次推送之后触发任务的全部流程细节。
 
-![image-20230113164418830](/Users/all/Library/Application Support/typora-user-images/image-20230113164418830.png)
+![Github-Action-Show](Github-Action-Show.png)
 
 4. 在Pages页面可以看到部署状态，并且可以尝试从github提供的连接（比如我的就是https://polaris0112.github.io/）进行访问，访问结果应该要与本地跑的localhost地址显示的要一样。
 
-![image-20230113164647942](/Users/all/Library/Application Support/typora-user-images/image-20230113164647942.png)
+![Github-Pages-Show](Github-Pages-Show.png)
 
 ### 结束语
 
-到这里，已经完成了博客的部署，接下来就是调整配置等等相关细节问题，后续会根据笔者使用情况出对应的教程，有兴趣的朋友可以继续阅读以下文章：
+到这里，已经完成了博客的部署，接下来就是调整配置等等相关细节问题。如果部署上有什么不清晰或者是教程上写错的地方，欢迎联系Email: jjc27017@gmail.com 或者添加TG群(https://t.me/yysy_blog_chat)一起讨论。后续会根据笔者使用情况出对应的教程，有兴趣的朋友可以继续阅读以下文章：
 
-- 如有个人域名，将Github Pages设置个人域名并且支持HTTPS
+- 将Github Pages设置个人域名并且支持HTTPS
 - 让搜索引擎能搜索该网站
 - Hugo-theme-stack的配置
 - Hugo-theme-stack添加搜索栏、Archive栏、Links栏、Abount栏
 - Hugo-theme-stack使用emoji表情，增加加载进度条，添加评论插件
 - 免费域名（附带续费方式，相当于永久免费）
+
+
