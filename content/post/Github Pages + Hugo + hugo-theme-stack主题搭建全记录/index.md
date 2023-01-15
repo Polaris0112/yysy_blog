@@ -8,7 +8,7 @@ categories:
     - 部署
     - Github
     - Hugo
-    - 教程
+    - 技术文档
 ---
 
 ##  背景
@@ -139,7 +139,7 @@ hugo v0.96.0+extended darwin/amd64 BuildDate=unknown
 #### 创建博客源代码仓库
 
 1. 仓库命名（随意）
-2. 勾选**Public**，设置为公开仓库![Github-Blog-Source-Code-Repository-Setting](Github-Blog-Source-Code-Repository-Setting.jpg)
+2. 勾选**Public**，设置为公开仓库![博客源代码仓库设置](Github-Blog-Source-Code-Repository-Setting.jpg)
 
 #### 部署Hugo源代码到本地
 
@@ -159,7 +159,7 @@ git remote add https://github.com/Polaris0112/yysy_blog.git
 
 此时，yysy文件夹下目录状态应该是这样的
 
-![YYSY-Blog-Dir-Tree](YYSY-Blog-Dir-Tree.png)
+![YYSY博客目录结构](YYSY-Blog-Dir-Tree.png)
 
 - **archetypes**：存放用hugo命令新建的md文件应用的front matter模版
 - **config.toml**：网站配置文件
@@ -194,13 +194,13 @@ cp -r themes/hugo-theme-stack/exampleSite/ ./
 hugo server -D
 ```
 
-正常返回是![Local-Run-Return](Local-Run-Return.jpg)
+正常返回是![本地运行结果](Local-Run-Return.jpg)
 
 这时候就能打开浏览器访问 http://localhost:1313/
 
 显示以下页面就是最最最原始的测试页面，元素都能正常展示。（到目前为止还没联动Github Pages，只是本地启动调试）
 
-![Local-Run-Website-Return](Local-Run-Website-Return.png)
+![本地运行网页结果](Local-Run-Website-Return.png)
 
 
 
@@ -209,7 +209,7 @@ hugo server -D
 #### 创建Github Pages仓库
 
 1. 命名GitHub Pages仓库，这个仓库名**必须是** `<username>.github.io `的格式，`<username>` 是自己的GitHub的用户名。比如我的Github用户名是Polaris0112，那我就要创建polaris0112.github.io作为Pages的仓库名。
-2.  勾选**Public**，设置为公开仓库。![Github-Pages-Repository-Setting](Github-Pages-Repository-Setting.jpg)
+2.  勾选**Public**，设置为公开仓库。![Github-Pages仓库设置](Github-Pages-Repository-Setting.jpg)
 
 #### 推送静态文件
 
@@ -283,9 +283,9 @@ git push -u origin main
 hugo
 ```
 
-![Hugo-Command-Run-1](Hugo-Command-Run-1.png)
+![Hugo命令运行结果1](Hugo-Command-Run-1.png)
 
-![Hugo-Command-Run-2](Hugo-Command-Run-2.png)
+![Hugo命令运行结果2](Hugo-Command-Run-2.png)
 
 运行后，`yysy`目录下会生成`public`文件夹，里面就是根据其他文件生成出来，整个网站的静态文件。
 
@@ -302,11 +302,11 @@ git push -u origin main
 
 成功推送之后应该是会触发Github Actions，具体在Github Pages仓库（就是仓库名有github.io那个）中Issue那一栏会有Action标签，在那里可以看到每次推送之后触发任务的全部流程细节。
 
-![Github-Action-Show](Github-Action-Show.png)
+![Github-Action结果显示](Github-Action-Show.png)
 
 4. 在Pages页面可以看到部署状态，并且可以尝试从github提供的连接（比如我的就是https://polaris0112.github.io/）进行访问，访问结果应该要与本地跑的localhost地址显示的要一样。
 
-![Github-Pages-Show](Github-Pages-Show.png)
+![Github-Pages结果显示](Github-Pages-Show.png)
 
 ## 结束语
 
@@ -318,5 +318,4 @@ git push -u origin main
 - Hugo-theme-stack添加搜索栏、Archive栏、Links栏、Abount栏
 - Hugo-theme-stack使用emoji表情，增加加载进度条，添加评论插件
 - 免费域名（附带续费方式，相当于永久免费）
-
 

@@ -8,25 +8,25 @@ categories:
     - 部署
     - Github Pages
     - HTTPS
-    - 教程
+    - 技术文档
 ---
 ##  背景
 
 从之前[部署博客]()的文章可以获得一个无需自己购买服务器和域名的博客，并且能自主更新博客内容，再优化一下可以增加评论、统计访问量等插件。本文就是在这个基础上，继续低成本让个人博客使用自己的个人域名然后公网能支持HTTPS访问。
 
-### 前期准备
+## 前期准备
 
 - 一个域名（低成本建议使用腾讯云/阿里云按需购买）
 - github pages配置完成的状态，能通过`<username>.github.io`正常访问
 - 一个Cloudflare账号
 
-### 域名解析配置
+## 部署配置
 
-#### 将域名转移到cloudflare托管
+### 将域名转移到cloudflare托管
 
 以腾讯云为例（因为我域名是在腾讯云买）
 
-![Tencent-Cloud-DNS-Dashboard](Tencent-Cloud-DNS-Dashboard.png)
+![腾讯云域名设置](Tencent-Cloud-DNS-Dashboard.png)
 
 在“DNS解析”内容中，修改DNS服务器改成Cloudflare中添加站点后按照流程给出的NS服务器，对应填进去，等待几分钟之后Cloudflare就可以托管我们买的域名了。
 
@@ -44,7 +44,7 @@ categories:
 |   A   |  @   |    185.199.111.153    |
 | CNAME | www  | polaris0112.github.io |
 
-![Cloudflare-Setting](Cloudflare-Setting.png)
+![Cloudflare设置](Cloudflare-Setting.png)
 
 **注意**：暂时不建议使用CDN，因为会影响github解析校验流程。
 
@@ -83,21 +83,21 @@ Name:	polaris0112.github.io
 Address: 185.199.111.153
 ```
 
-#### 设置HTTPS
+### 设置HTTPS
 
 如下图，选择对应域名，然后进入"SSL/TLS" --> "Overview" ，在"Your SSL/TLS encryption mode"选择"Full"
 
-![Cloudflare-Setting-Encryption-Mode](Cloudflare-Setting-Encryption-Mode.png)
+![Cloudflare-Encryption-Mode设置](Cloudflare-Setting-Encryption-Mode.png)
 
 如下图，选择对应域名，然后进入"SSL/TLS" --> "Edge Certificates" ，找到"Always Use HTTPS"点击右侧按钮，绿色✅即为打开跳转`https`
 
-![Cloudflare-Setting-Always-Use-HTTPS](Cloudflare-Setting-Always-Use-HTTPS.png)
+![Cloudflare-Always-Use-HTTPS设置](Cloudflare-Setting-Always-Use-HTTPS.png)
 
 ### 配置GitHub Pages仓库
 
 **注意**：这里说的是`<username>.github.io`这个仓库，**不要**操作博客源代码仓库，不然无效。
 
-![Github-Pages-Setting-Custom-Domain](Github-Pages-Setting-Custom-Domain.png)
+![Github-Pages自定义域名设置](Github-Pages-Setting-Custom-Domain.png)
 
 填入自定义域名，然后“Save”保存，然后github会对该域名进行检查，主要是检查该域名是否指向github地址。
 
@@ -119,9 +119,9 @@ git push -u origin main
 
 配置完毕如下图
 
-![Finish-Setting](Finish-Setting.png)
+![最终配置](Finish-Setting.png)
 
-### 结束语
+## 结束语
 
 本文使用自定义域名来代替`Github`给我们的域名，主要能缩短地址长度，方便记忆，后续用途需要继续开发。我买的这个域名是108元/3年，网上还有其他还可以更低价的域名可以买，大家可以按需查找，国内我建议还是[腾讯云域名注册](https://dnspod.cloud.tencent.com/)和[阿里云域名注册](https://wanwang.aliyun.com/)，主要因为是交易方便。海外的话可能也有不少能使用支付宝/微信/银联，不过很多都是需要paypal等海外支付方式，较为麻烦，所以还是推荐国内的常见的域名注册厂商。
 
