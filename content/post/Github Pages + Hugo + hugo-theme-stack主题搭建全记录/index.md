@@ -312,10 +312,10 @@ git push -u origin main
 
 到这里，已经完成了博客的部署，接下来就是调整配置等等相关细节问题。如果部署上有什么不清晰或者是教程上写错的地方，欢迎联系Email: jjc27017@gmail.com 或者添加TG群(https://t.me/yysy_blog_chat)一起讨论。后续会根据笔者使用情况出对应的教程，有兴趣的朋友可以继续阅读以下文章：
 
-- 将Github Pages设置个人域名并且支持HTTPS
+- [将Github Pages设置个人域名并且支持HTTPS](https://yysy.site/p/github-pages-https/)
 - 让搜索引擎能搜索该网站
 - Hugo-theme-stack的配置
 - Hugo-theme-stack添加搜索栏、Archive栏、Links栏、Abount栏
-- Hugo-theme-stack使用emoji表情，增加加载进度条，添加评论插件
+- [Hugo-theme-stack添加评论插件](https://yysy.site/p/github-pages-hugo-utterances/)
 - 免费域名（附带续费方式，相当于永久免费）
 
