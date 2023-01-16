@@ -1,34 +1,35 @@
 ---
-title: About
-description: Hugo, the world's fastest framework for building websites
-date: '2019-02-28'
-aliases:
-  - about-us
-  - about-hugo
-  - contact
-license: CC BY-NC-ND
-lastmod: '2020-10-09'
+title: 关于
+slug: "about"
 menu:
     main: 
-        weight: -90
+        weight: -60
         params:
             icon: user
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+# yysy.site
 
-Hugo makes use of a variety of open source projects including:
+YYSY 有一说一 私人博客
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+本站单纯分享、记录、收集平时积累的各种信息，不定时更新
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+有兴趣研究被动额外收入、主动额外收入欢迎沟通交流技术(email: jjc27017@gmail.com)，一起赚钱
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+本站涉及领域：
+- [运维方面（包括脚本、网络、Linux/Windows/Mac系统相关、安全相关方面信息）](https://yysy.site/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/)
+- 网赚方面（属于被动收入，整理自己目前收集并且在用，能成功运作的网赚工具）
+- 其他方面（路由器有限知识，服务器测评信息收集等，还有软路由、服务器，可以提供有偿技术支持服务）
+- 电子货币方面（交易所、量化策略等）
+- 股市方面（有了解，不过目前暂无安排）
 
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+所以有这个博客的产生，如有侵权麻烦及时通知，我会马上进行整理，谢谢
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+欢迎大家一起沟通
+
+YYSY博客TG通知频道
+[@yysy_blog](https://t.me/yysy_blog)
+
+
+YYSY博客TG聊天群
+[@yysy_blog_chat](https://t.me/yysy_blog_chat)
