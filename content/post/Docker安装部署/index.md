@@ -3,7 +3,7 @@ title: Docker安装部署
 description: Docker安装部署过程
 date: 2023-01-16
 slug: docker-installation
-weight: 5
+weight: 10
 image: Docker-Installation-Front.jpg
 categories:
     - 部署
