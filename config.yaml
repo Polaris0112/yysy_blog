@@ -1,7 +1,7 @@
 baseurl: https://yysy.site
 languageCode: zh-cn
 theme: hugo-theme-stack
-paginate: 5
+paginate: 15
 title: YYSY 博客
 
 languages:
