@@ -69,7 +69,7 @@ IPRoyal Pawns，一家美国正规的IP代理公司，用户通过出售闲置�
 
 [Linux ARM v7l](https://download.iproyal.com/pawns-cli/latest/linux_armv7l/pawns-cli)
 
-[Linux ARM v6l][https://download.iproyal.com/pawns-cli/latest/linux_armv6l/pawns-cli]
+[Linux ARM v6l](https://download.iproyal.com/pawns-cli/latest/linux_armv6l/pawns-cli)
 
 [Linux ARM v5l](https://download.iproyal.com/pawns-cli/latest/linux_armv5l/pawns-cli)
 
