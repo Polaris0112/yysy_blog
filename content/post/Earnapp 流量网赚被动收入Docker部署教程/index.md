@@ -103,6 +103,14 @@ mkdir $HOME/earnapp-data
 docker run -d --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -v $HOME/earnapp-data:/etc/earnapp --name earnapp fazalfarhan01/earnapp
 ```
 
+坑1：这里适合的是linux系统，如果是和笔者都是用macOS系统的话，目前他们那个版本是无法产生流量的，因此我们还是要考虑docker版本
+
+Mac的docker需要进行如下修改
+
+1. 检查`cat ~/Library/Group\ Containers/group.com.docker/settings.json|grep deprecatedCgroupv1` 是否为false
+2. 加入是true就不用管，可以直接使用docker命令
+3. 如果是false的话，需要把对应的值改成true，重启docker，并且`/sys/fs/cgroup`在MacOS中是没有的，因此需要跑一个centos或者ubuntu镜像` docker run -d --name earnapp centos:7 /usr/sbin/init`，然后使用命令`wget -qO- https://brightdata.com/static/earnapp/install.sh > /tmp/earnapp.sh && sudo bash /tmp/earnapp.sh` 进行安装
+
 执行完成后运行
 
 ```shell
