@@ -75,6 +75,6 @@ sudo docker run -d --restart=always --name watchtower -v /var/run/docker.sock:/v
 -  [网络流量被动收入之Bitping Docker部署教程](https://yysy.site/p/passive-income-bitping)
 -  [网络流量被动收入之Iproyal Docker部署教程](https://yysy.site/p/passive-income-iproyal)
 -  [网络流量被动收入之Peer2profit Docker部署教程](https://yysy.site/p/passive-income-peer2profit)
-- [网络流量被动收入之Peer2profit Docker部署教程](https://yysy.site/p/passive-income-peer2profit)
-
 - [网络流量被动收入之Earnapp Docker部署教程](ttps://yysy.site/p/passive-income-earnapp)
+
+- [网络流量被动收入之Repocket Docker部署教程](https://yysy.site/p/passive-income-repocket)

@@ -116,3 +116,5 @@ Traffmonetizer 比较好的一点是对`IP` 没有那么严格的限制，走的
 -  [网络流量被动收入之Iproyal Docker部署教程](https://yysy.site/p/passive-income-iproyal)
 -  [网络流量被动收入之Peer2profit Docker部署教程](https://yysy.site/p/passive-income-peer2profit)
 -  [网络流量被动收入之Earnapp Docker部署教程](ttps://yysy.site/p/passive-income-earnapp)
+
+- [网络流量被动收入之Repocket Docker部署教程](https://yysy.site/p/passive-income-repocket)

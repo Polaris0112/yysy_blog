@@ -144,3 +144,5 @@ print(message)
 
 - [网络流量被动收入之Earnapp Docker部署教程](ttps://yysy.site/p/passive-income-earnapp)
 
+- [网络流量被动收入之Repocket Docker部署教程](https://yysy.site/p/passive-income-repocket)
+

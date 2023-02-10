@@ -131,3 +131,4 @@ Earnapp收益是这么多网赚里面比较低的一个，也有可能和我用�
 
 - [网络流量被动收入之Honeygain Docker部署教程](https://r.honeygain.me/JJC27EFDE4)
 
+- [网络流量被动收入之Repocket Docker部署教程](https://yysy.site/p/passive-income-repocket)

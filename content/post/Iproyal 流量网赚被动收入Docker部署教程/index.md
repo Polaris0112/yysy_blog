@@ -103,3 +103,5 @@ IProyal缺点还是仅限家宽`IP`，不能使用服务器`IP`。优点是支�
 
 - [网络流量被动收入之Peer2profit Docker部署教程](https://yysy.site/p/passive-income-peer2profit)
 - [网络流量被动收入之Earnapp Docker部署教程](ttps://yysy.site/p/passive-income-earnapp)
+
+- [网络流量被动收入之Repocket Docker部署教程](https://yysy.site/p/passive-income-repocket)
