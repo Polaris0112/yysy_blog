@@ -13,6 +13,7 @@ categories:
     - Iproyal
     - Peer2profit
     - Earnapp
+    - Repocket
 ---
 
 ## 背景
@@ -26,6 +27,7 @@ categories:
   - [Iproyal](https://yysy.site/p/passive-income-iproyal/)
   - [Peer2profit](https://yysy.site/p/passive-income-peer2profit/)
   - [Earnapp](https://yysy.site/p/passive-income-earnapp/)
+  - [Repocket](https://app.repocket.co/)
 
 本文针对本人使用过程中一些收益，使用上差异进行对比，方便大家选择合适的平台进行出金。
 
